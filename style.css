@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* nav */
+nav {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+nav li{
+    /* color: red; */
+    list-style-type: none;
+    padding: 15px;
+    font-size: 20px;
+    color: grey;
+    border-radius: 10px;
+}
+
+nav li:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+#black_option {
+    color: black;
+    font-weight: 700;
+}
+
+/* header */
+header{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
+    background-position: cover;
+}
