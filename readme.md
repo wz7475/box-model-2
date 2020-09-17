@@ -1,0 +1,1 @@
+This is page cloned from codecademy, I looked as original one looked like and I wrote code by my own conception.
