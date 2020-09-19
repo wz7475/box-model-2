@@ -35,15 +35,20 @@ nav li:hover{
 
 /* header */
 header{
-    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
-    background-size: cover;
-    background-position: bottom center;
-    width: 100%;
-    height: 700px;
+    position: relative;
 }
 
-header h2{
+header img{
+    width: 1000px;
+}
+
+header h1{
     color: white;
-    width: 400px;
-    border: 3px solid;
+    width: 500px;
+    border: 5px solid;
+    margin: auto;
+    position: absolute;
+    top: 150px;
+    text-align: center;
+    left: 250px;
 }
