@@ -74,8 +74,8 @@ article{
     background-color: white;
 }
 
-#article_container{
-    margin: 50px 30px;
+article p, h2, h3{
+    padding: 0 50px;
 }
 
 article h2, h3{
@@ -89,6 +89,12 @@ article h3{
 .author{
     border-bottom: 1px solid;
     border-top: 1px solid;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: antiquewhite;
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 /* footer */
