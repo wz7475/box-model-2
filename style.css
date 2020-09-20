@@ -1,11 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+/* all */
 body {
     font-family: 'Roboto', sans-serif;
     color: grey;
+    background-color: yellow;
 }
 
 #container{
     width: 1000px;
     margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 80px;
 }
 
 /* nav */
@@ -57,13 +65,25 @@ header h1{
 article{
     text-align: center;
     width: 500px;
-    margin: auto;
+    margin: 50px auto;
     font-size: 18px;
     line-height: 250%;
+    height: 800px;
+    overflow: scroll;
+    border: 2px solid;
+    background-color: white;
 }
 
-article h2{
+#article_container{
+    margin: 50px 30px;
+}
+
+article h2, h3{
     color: red;
+}
+
+article h3{
+    border: 2px red dotted;
 }
 
 .author{
