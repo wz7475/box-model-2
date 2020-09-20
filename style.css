@@ -90,3 +90,38 @@ article h3{
     border-bottom: 1px solid;
     border-top: 1px solid;
 }
+
+/* footer */
+footer{
+    background-color: white;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+}
+
+footer li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    margin: 0 20px;
+}
+
+footer li:hover{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+#buttons
+{
+    position: absolute;
+    top: 60px;
+    width: 100%;
+}
